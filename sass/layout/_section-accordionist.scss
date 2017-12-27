@@ -1,0 +1,33 @@
+.accordionist {
+    .accordionist-bg {
+        background: #333333 url('../img/accordionist.png') right top no-repeat;
+        background-size: contain;
+        min-height: 80vh;
+        padding: 80px 0 80px 100px;
+        margin-top: 80px;
+
+        h2 {
+            color: $main-color;
+            font-family: "Droid Sans", sans-serif;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.accordionist-1982 {
+    color: $main-color;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    white-space: pre-line;
+
+    span {
+        font-family: "Great Vibes", sans-serif;
+        font-size: 65px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}

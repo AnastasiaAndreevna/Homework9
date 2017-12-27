@@ -1,0 +1,55 @@
+.button-purchase {
+    position: absolute;
+    right: 94px;
+    top: 35px;
+
+    .link-purchase {
+        background-color: $main-color;
+        color: #df001f;
+        font-family: "Droid Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        border-radius: 25px;
+        padding: 21px 44px 20px 44px;
+    }
+}
+
+.link-discover {
+        background-color: #df001f;
+        border-radius: 25px;
+        padding: 21px 46px 20px 46px;
+        color: $main-color;
+        font-family: "Droid Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+.button-ticket {
+    background-color: #df001f;
+    border-radius: 25px;
+    color: $main-color;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 21px 39px 20px 40px;
+}
+
+.button-learn {
+    display: inline-block;
+    background-color: $main-color;
+    border-radius: 25px;
+    color: #df001f;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 15px 40px 10px 39px;
+}
+
