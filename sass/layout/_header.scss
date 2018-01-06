@@ -32,32 +32,69 @@
     }
 }
 
-    .main-background {
-        background: url("../img/main-background.png") no-repeat center / cover;
-        height: 100vh;
-        margin-top: -80px;
-        text-align: center;
+.main-slide1 {
+    background: url("../img/main-slider1.png");
+    background-size: cover;
+    margin-top: -100px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 3px solid #d3d3d3;
+    box-sizing: border-box;
+    position: relative;
 
-        h1 {
-            padding-top: 210px;
-            padding-left: 210px;
-            color: #df001f;
-            font-family: "Oswald - Heavy", sans-serif;
-            font-size: 116px;
-            font-weight: bold;
-            line-height: 85px;
-            text-transform: uppercase;
-        }
-
-        span {
-            margin-top: -40px;
-            display: block;
-            color: #333333;
-            font-family: "Great Vibes", sans-serif;
-            font-size: 80px;
-            font-weight: 400;
-            line-height: 160px;
-            text-transform: capitalize;
-
-        }
+    &:after {
+        content: '';
+        display: block;
+        width: 70%;
+        height: 3px;
+        background-color: #df001f;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin-bottom: -3px;
     }
+}
+
+.main-slide2 {
+    background: url("../img/main-slider2.png");
+    background-size: cover;
+    margin-top: -100px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 3px solid #d3d3d3;
+}
+
+.main-slide3 {
+    background: url("../img/main-slider3.png");
+    background-size: cover;
+    margin-top: -100px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 3px solid #d3d3d3;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding-top: 230px;
+    padding-left: 450px;
+    color: #df001f;
+    font-family: "Oswald", sans-serif;
+    font-size: 116px;
+    font-weight: bold;
+    line-height: 85px;
+    text-transform: uppercase;
+
+    span {
+        margin-top: -40px;
+        display: block;
+        color: #333333;
+        font-family: "Great Vibes", sans-serif;
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 160px;
+        text-transform: capitalize;
+
+    }
+}

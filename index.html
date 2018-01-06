@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-      xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Cantus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="flexslider/flexslider.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -29,13 +32,28 @@
             </div>
         </div>
     </div>
-    <div class="main-background">
-        <div class="container">
-            <div class="main-title">
-                <h1>Let’s Rock<span>With Cantus</span></h1>
-            </div>
-            <a href="#" class="link-discover">Discover More</a>
-        </div>
+
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="main-slide1">
+                    <h1>Let’s Rock<span>With Cantus</span></h1>
+                    <div class="container-button"><a href="#" class="link-discover">Discover More</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="main-slide2">
+                    <h1>Let’s Rock<span>With Cantus</span></h1>
+                    <div class="container-button"><a href="#" class="link-discover">Discover More</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="main-slide3">
+                    <h1>Let’s Rock<span>With Cantus</span></h1>
+                    <div class="container-button"><a href="#" class="link-discover">Discover More</a></div>
+                </div>
+            </li>
+        </ul>
     </div>
 </header>
 <section>
@@ -55,8 +73,6 @@
         </ul>
     </div>
 </section>
-
-
 <section>
     <div class="container clearfix">
         <div class="upcoming-concert">
@@ -95,16 +111,22 @@
         </div>
     </div>
 </section>
-
 <section class="accordionist">
     <div class="accordionist-bg">
         <div class="container">
             <h2>Our Founder staying in our hearts</h2>
             <p class="accordionist-1982">1982<span>cantus</span>Start jurny and now it‘s top class Rock
                 Band in the California.</p>
-            <a href="#" class="button-learn">learn more</a>
+            <div><a class="button-learn" id="modal-trigger">learn more</a></div>
+            <form action="#" method="post" class="modal-window" id="modal_1">
+                <div class="modal-close" id="close">&#10008;</div>
+                <h2 class="popup-title">Application</h2>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Phone">
+                <textarea name="popup" cols="30" rows="3" placeholder="Your message"></textarea>
+                <button type="submit" class="popup-button">Submit</button>
+            </form>
         </div>
-    </div>
 </section>
 <div class="container">
     <section class="songs">
@@ -159,38 +181,32 @@
         <div class="container">
             <h2>Download Our Official Apps</h2>
             <p>Never stop listening. Take your playlists and likes wherever you go.</p>
-            <button class="download-ios">
-                <a href="#"><img src="img/apple.png" class="apple-icon">
-                    <span>Download on the</span>
-                    <span>App Store</span></a>
-            </button>
-            <button class="downolad-google">
-                <a href="#"><img src="img/goole-play.png">
-                    <span>Get it on</span>
-                    <img src="img/google-play.png" class="google"></a>
-            </button>
+            <a href="#"><img src="img/apple.png"></a>
+            <a href="#"><img src="img/google.png"></a>
             <div class="subscribe">
                 <h4>subscribe newsletter</h4>
             </div>
         </div>
     </section>
-<footer>
-    <div class="container">
-        <nav>
-            <ul class="footer-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Albums</a></li>
-                <li><a href="#">Pages</a></li>
-            </ul>
-        </nav>
-        <p>Copyright &#169; 2009–2016<span>cantus</span> &#169; their respective owners. Shipped from Salem, Mass. USA.
-        </p>
-    </div>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
+    <footer>
+        <div class="container">
+            <nav>
+                <ul class="footer-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Albums</a></li>
+                    <li><a href="#">Pages</a></li>
+                </ul>
+            </nav>
+            <p>Copyright &#169; 2009–2016<span>cantus</span> &#169; their respective owners. Shipped from Salem, Mass.
+                USA.
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="flexslider/jquery.flexslider.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
