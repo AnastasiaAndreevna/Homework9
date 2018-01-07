@@ -12,9 +12,10 @@ jQuery(function () {
 })
 
 //sliders
-$(window).load(function() {
-  $('.flexslider').flexslider({
+jQuery(window).load(function() {
+  jQuery('.flexslider').flexslider({
     animation: 'slide',
     controlNav: false,
-  });
-});
+  })
+})
+

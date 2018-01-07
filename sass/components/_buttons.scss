@@ -1,6 +1,6 @@
 .button-purchase {
     position: absolute;
-    right: 94px;
+    right: 85px;
     top: 35px;
 
     .link-purchase {
@@ -58,4 +58,29 @@
     text-transform: uppercase;
     padding: 15px 40px 10px 39px;
 }
+
+.white-arrow-list {
+    text-align: right;
+    margin-bottom: 5px;
+    margin-right: 12rem;
+
+    .white-arrow {
+        margin: 5px;
+        display: inline-block;
+        border: 2px inset transparent;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            text-decoration: none;
+            background-color: #df001f;
+            color: $main-color;
+        }
+    }
+}
+
+
 
