@@ -28,8 +28,10 @@
     .picture {
         width: 300px;
         border-bottom: 70px solid #df001f;
-        }
+        position: relative;
     }
+}
+
 
 .artist {
     position: absolute;
@@ -49,3 +51,4 @@
         font-size: 16px;
     }
 }
+
